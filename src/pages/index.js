@@ -1,3 +1,9 @@
 import React from "react"
 
-export default () => <div>Hello world!</div>
+const IndexPage = () => (
+  <div>
+    This is the About Me page
+  </div>
+)
+
+export default IndexPage;
