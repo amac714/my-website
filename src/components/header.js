@@ -1,23 +1,37 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { Link } from "gatsby";
-
-const ListLink = props => (
-  <li style={{ display: `inline-block`, marginRight: `1rem` }}>
-    <Link to={props.to}>{props.children}</Link>
-  </li>
-)
+import { Link } from "gatsby"
+import Container from "react-bootstrap/Container"
+import Nav from "react-bootstrap/Nav"
+import Navbar from "react-bootstrap/Navbar"
 
 const Header = ({ siteTitle }) => (
-  <header style={{ marginBottom: `1.5rem` }}>
-    <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-      <h3 style={{ display: `inline` }}>MySweetSite</h3>
-    </Link>
-    <ul style={{ listStyle: `none`, float: `right` }}>
-      <ListLink to="/">About</ListLink>
-      <ListLink to="/projects/">Projects</ListLink>
-    </ul>
-  </header>
+  <div>
+    <Container>
+      <Navbar fixed="top" expand="md" variant="light" bg="dark">
+        {/* <Navbar.Brand className="mr-auto">Alan Macabuhay</Navbar.Brand> */}
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse
+          id="responsive-navbar-nav"
+          className="justify-content-end p-4"
+        >
+          <Nav defaultActiveKey="#About">
+            <Nav.Item>
+              <Link to="/">About</Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Link to="/projects">Projects</Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Link to="/">Contact</Link>
+            </Nav.Item>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    </Container>
+  </div>
 )
 
 Header.propTypes = {
@@ -28,4 +42,4 @@ Header.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header;
+export default Header

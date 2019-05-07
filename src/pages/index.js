@@ -1,10 +1,30 @@
 import React from "react"
-import Layout from "../components/layout";
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import Image from "../components/image"
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
 
 const IndexPage = () => (
   <Layout>
-    This is the About Me page
+    <SEO title="Alan Macabuhay" keywords={[`gatsby`, `application`, `react`]} />
+    <Row>
+      <Col sm={4}>
+        <Image alt="my profile pic" />
+      </Col>
+      <Col sm={8}>
+        <h1 style={{ paddingTop: `10%` }}>Hello.</h1>
+        <p>
+          My name's Alan Macabuhay. I recently graduated from Oregon State
+          University. I am an aspiring software engineer.
+        </p>
+        <p>
+          I am currently looking for a job to start my career. For more details,
+          see my Resume.
+        </p>
+      </Col>
+    </Row>
   </Layout>
 )
 
-export default IndexPage;
+export default IndexPage

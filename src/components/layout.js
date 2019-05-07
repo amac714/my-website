@@ -1,12 +1,18 @@
 import React from "react"
 //import PropTypes from "prop-types"
-import Header from "../components/header";
+import Header from "../components/header"
+import Container from "react-bootstrap/Container"
 
-const Layout = ({children}) => (
-  <div>
+const Layout = ({ children }) => (
+  <Container>
     <Header siteTitle={`Header`} />
-    {children}
-  </div>
+    <main style={{paddingTop: `10%`}}>{children}</main>
+    <footer>
+      © {new Date().getFullYear()} Alan Macabuhay, Built with
+      {` `}
+      <a href="https://www.gatsbyjs.org">Gatsby</a>
+    </footer>
+  </Container>
 )
 
-export default Layout;
+export default Layout
