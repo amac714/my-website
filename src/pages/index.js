@@ -15,13 +15,20 @@ const IndexPage = () => (
       <Col sm={8}>
         <h1 style={{ paddingTop: `5%` }}>Hello.</h1>
         <p>
-          My name's Alan Macabuhay. I recently graduated from Oregon State
-          University. I am an aspiring software engineer.
+          My name's{" "}
+          <span style={{ color: `#197BBD`, fontSize: `24px` }}>
+            <strong>Alan Macabuhay</strong>
+          </span>
+          . I recently graduated from Oregon State University. I am an aspiring
+          software engineer.
         </p>
         <p>
           I am currently looking for a job to start my career. For more details,
           see my{" "}
-          <a href="https://docs.google.com/document/d/1Emf02M1PUjog2N93UquHZGUk8sEEv9BqSvKnWfG-45Q/edit?usp=sharing">
+          <a
+            href="https://docs.google.com/document/d/1Emf02M1PUjog2N93UquHZGUk8sEEv9BqSvKnWfG-45Q/edit?usp=sharing"
+            style={{ color: `#FFF8F0` }}
+          >
             résumé.
           </a>
         </p>
