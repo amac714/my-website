@@ -1,0 +1,26 @@
+
+.header-link {
+  margin: 20px;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+  color: #EF3E36;
+}
+
+ul > li > a {
+  color: #C6CCB2;
+  text-decoration: none;
+}
+
+html {
+  background: #172A3A;
+}
