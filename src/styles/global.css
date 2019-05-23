@@ -24,3 +24,7 @@ ul > li > a {
 html {
   background: #172A3A;
 }
+
+.image:hover {
+  opacity: 0.7;
+}
