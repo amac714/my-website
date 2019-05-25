@@ -14,7 +14,7 @@ const IndexPage = () => (
       </Col>
       <Col sm={8}>
         <h1 style={{ paddingTop: `5%` }}>Hello.</h1>
-        <p>
+        <p className="bio">
           My name's{" "}
           <span style={{ color: `#197BBD`, fontSize: `24px` }}>
             <strong>Alan Macabuhay</strong>
@@ -22,7 +22,7 @@ const IndexPage = () => (
           . I recently graduated from Oregon State University. I am an aspiring
           software engineer.
         </p>
-        <p>
+        <p className="bio">
           I am currently looking for a job to start my career. For more details,
           see my{" "}
           <a

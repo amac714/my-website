@@ -12,19 +12,18 @@ const Contact = () => (
       }}
     >
       <h2>Feel free to contact me.</h2>
-      <p>
-        <ul style={{ display: "inline-block", textAlign: "left" }}>
-          <li>
-            <a href="mailto:amac714@gmail.com">Email</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/alan-macabuhay">LinkedIn</a>
-          </li>
-          <li>
-            <a href="https://www.github.com/amac714">GitHub</a>
-          </li>
-        </ul>
-      </p>
+
+      <ul style={{ display: "inline-block", textAlign: "left" }}>
+        <li>
+          <a href="mailto:amac714@gmail.com">Email</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/alan-macabuhay">LinkedIn</a>
+        </li>
+        <li>
+          <a href="https://www.github.com/amac714">GitHub</a>
+        </li>
+      </ul>
     </div>
   </Layout>
 )
