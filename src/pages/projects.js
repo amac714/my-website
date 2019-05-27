@@ -60,6 +60,7 @@ const Projects = () => (
   <Layout>
     <SEO title="projects" keywords={[`gatsby`, `application`, `react`]} />
     <Container>
+      <p style={{textAlign: `center`, fontSize: `11px`}}>Note: Projects currently link externally to github repo</p>
       <Row>
         {data.map(d => (
           <Col sm={6} xs={12} key={d.name}>
