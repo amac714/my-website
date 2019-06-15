@@ -15,7 +15,7 @@ const Image = () => (
         }
       }
     `}
-    render={data => <Img fixed={data.placeholderImage.childImageSharp.fixed} />}
+    render={data => <Img className="pic" fixed={data.placeholderImage.childImageSharp.fixed} />}
   />
 )
 export default Image

@@ -27,13 +27,6 @@ const data = [
     image: budget,
   },
   {
-    name: "NBA Database",
-    link: "https://github.com/amac714/NBA-Database",
-    description: "Web application to update and keep track of NBA team rosters",
-    stack: "JavaScript, MySQL, Express.js, Handlebars, jQuery",
-    image: nba,
-  },
-  {
     name: "To-Do List",
     link: "https://github.com/amac714/indecision-app",
     description: "To-do app for the indecisive person",
