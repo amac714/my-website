@@ -19,14 +19,14 @@ const IndexPage = () => (
           <span style={{ color: `#197BBD`, fontSize: `24px` }}>
             <strong>Alan Macabuhay</strong>
           </span>
-          . I recently graduated from Oregon State University. I have experience in C/C++, Javacsript, Node.js,
-          React.js.
+          . I recently graduated from Oregon State University. I have experience
+          in C/C++, Javacsript, Node.js, React.js.
         </p>
         <p className="bio">
           I am currently looking for a job to start my career. For more details,
           see my{" "}
           <a
-            href="https://docs.google.com/document/d/16kiQ5peCqbbgqbBo8kTLhkhW1y4GkP1h9TIzusHY2ac/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1Emf02M1PUjog2N93UquHZGUk8sEEv9BqSvKnWfG-45Q/edit?usp=sharing"
             style={{ color: `#FFF8F0` }}
           >
             résumé.
